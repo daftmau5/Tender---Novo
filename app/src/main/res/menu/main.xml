@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/salada"
+            android:checkable="true"
+            android:title="@string/salada" />
+        <item
+            android:id="@+id/drinks"
+            android:checkable="true"
+            android:title="@string/bebida" />
+        <item
+            android:id="@+id/massa"
+            android:checkable="true"
+            android:title="@string/massa" />
+        <item
+            android:id="@+id/entrada"
+            android:checkable="true"
+            android:title="@string/entrada" />
+        <item
+            android:id="@+id/doce"
+            android:checkable="true"
+            android:title="@string/doce" />
+        <item
+            android:id="@+id/vegan"
+            android:checkable="true"
+            android:title="@string/vegan" />
+    </group>
+</menu>

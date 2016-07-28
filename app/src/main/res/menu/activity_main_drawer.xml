@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Receitas">
+            <menu>
+                <item
+                    android:id="@+id/likedRecipes"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="@string/likedRecipes" />
+                <item
+                    android:id="@+id/myRecipes"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/myRecipes" />
+            </menu>
+        </item>
+    </group>
+
+
+
+</menu>
